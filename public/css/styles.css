@@ -88,8 +88,7 @@ border-radius: 7px;
     form{
         width: 353.88px;
         height: 298px;
-        margin-right: 30px;
-        margin-left: 30px;
+        margin:auto;
 }
     img.timetime2{
     width:40px;
@@ -103,7 +102,7 @@ border-radius: 7px;
     height: 40px;
     position: absolute;
     right: 80%;
-    top: 86%;
+    top: 96%;
 }  
 img.pulse{
     width:40px;
