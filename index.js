@@ -17,8 +17,8 @@ app.post("/output.html", function (req, res) {
     if (age >= 90) {
         res.render("fulltime")
     }
-    else if (age == 0) {
-        res.render("newborn")
+    else if (age <= 0) {
+        res.render("newborn", { age: age })
     }
     else {
         lifeInDays = (90 * 365) - (age * 365);
