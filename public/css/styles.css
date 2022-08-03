@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: "Montserrat";
+    background-color: #fff;
+}
+nav{
+    background-color: #ABC9FF;
+}
+/* IMAGES */
+img.stopwatch{
+    width:100px;
+    height: 100px;
+    margin-top: 40px;
+}
+img.time-man{
+    width:300px;
+}
+img.pulse{
+    width:40px;
+    height: 40px;
+    position: absolute;
+    left: 80%;
+    margin-top: 2%;
+}
+img.pulse2{
+    width:40px;
+    height: 40px;
+    position: absolute;
+    right: 80%;
+}
+img.timetime{
+    width:40px;
+    height: 40px;
+    position: absolute;
+    right: 80%;
+    margin-top: 2%;
+}
+img.timetime2{
+    width:40px;
+    height: 40px;
+    position: absolute;
+    left: 80%;
+}
+/* SPAN */
+span.life{
+    color:red;
+}
+span.weeks{
+    color:red;
+}
+a.LifeInYears{
+    margin: auto;
+}
+
+hr{
+    border-style: dotted none none none;
+    border-width: 5px;
+    /* width: 30px; */
+    text-align: center;
+}
+hr:hover{
+    color:#F87474;
+}
+button{
+    margin-left: 60px;
+    border-radius: 7px;
+}
+/* FORM */
+form{
+border-radius: 7px;
+-webkit-box-shadow: 4px 4px 5px #666666;
+-moz-box-shadow: 4px 4px 5px #666666;
+box-shadow: 4px 4px 5px #666666;
+padding: 7px 10px 10px 10px;
+margin-left: 30%;
+margin-right: 30%;
+background-color: #ABC9FF;
+}
+form:hover{
+    background-color:#F47C7C;
+}
+input[type="number"]{
+border-radius: 7px;
+}
+/* MEDIA QUERRY */
+@media (max-width:1020px){
+    form{
+        width: 353.88px;
+        height: 298px;
+        margin-right: 30px;
+        margin-left: 30px;
+}
+    img.timetime2{
+    width:40px;
+    height: 40px;
+    position: absolute;
+    left: 80%;
+    top: 86%;
+}
+    img.pulse2{
+    width:40px;
+    height: 40px;
+    position: absolute;
+    right: 80%;
+    top: 86%;
+}  
+img.pulse{
+    width:40px;
+    height: 40px;
+    position: absolute;
+    left: 90%;
+    margin-top: 2%;
+} 
+img.timetime{
+    width:40px;
+    height: 40px;
+    position: absolute;
+    right: 90%;
+    margin-top: 2%;
+}
+}

@@ -1,0 +1,22 @@
+{
+  "name": "lifeinyears",
+  "version": "1.0.0",
+  "description": "This is a webpage built using nodejs that shows how much time we've got on earth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Time",
+    "Life",
+    "Fufillment"
+  ],
+  "author": "Tayo Olorunfemi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "jquery": "^3.6.0"
+  }
+}
