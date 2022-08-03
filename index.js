@@ -12,7 +12,7 @@ app.get("/", function (req, res) {
     res.sendFile(__dirname + "/index.html")
 
 })
-app.post("/output.html", function (req, res) {
+app.post("/", function (req, res) {
     var age = req.body.age;
     if (age >= 90) {
         res.render("fulltime")
