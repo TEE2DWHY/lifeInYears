@@ -14,10 +14,18 @@ app.get("/", function (req, res) {
 })
 app.post("/output.html", function (req, res) {
     var age = req.body.age;
-    lifeInDays = (90 * 365) - (age * 365);
-    lifeInWeeks = (90 * 52) - (age * 52);
-    lifeInMonths = (90 * 12) - (age * 12);
-    res.render("output", { Days: lifeInDays, Weeks: lifeInWeeks, Months: lifeInMonths, age: age })
+    if (age >= 90) {
+        res.render("fulltime")
+    }
+    else if (age == 0) {
+        res.render("newborn")
+    }
+    else {
+        lifeInDays = (90 * 365) - (age * 365);
+        lifeInWeeks = (90 * 52) - (age * 52);
+        lifeInMonths = (90 * 12) - (age * 12);
+        res.render("output", { Days: lifeInDays, Weeks: lifeInWeeks, Months: lifeInMonths, age: age })
+    }
     console.log(req.body)
 })
 
